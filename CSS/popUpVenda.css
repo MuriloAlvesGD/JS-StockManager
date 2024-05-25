@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+#box, #productBox{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background: yellowgreen;
+}
+
+#productNameList{
+    list-style-type: none;
+}
+
+li{
+    padding-left: 20px;
+    font-weight: bolder;
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+#sellForm, #productNameList{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+
+    h1 {
+        padding: 5px;
+        text-align: center;
+        color: yellowgreen;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+input{
+    border-radius: 10px;
+    border:none;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 5px 0 5px 10px;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin: auto;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: forestgreen;
+}
+
