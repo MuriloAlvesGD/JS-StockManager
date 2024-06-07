@@ -14,7 +14,13 @@ buyForm.addEventListener("submit", function (event) {
         value: productformValue.value,
         stock: productformStock.value,
     };
+
+    let despesa = JSON.parse(localStorage.getItem('despesa'));
+    despesa += newProduct.cost * newProduct.stock;
+
+    localStorage.setItem('despesa', JSON.stringify(despesa));
     localStorage.setItem("newProduct", JSON.stringify(newProduct));
+
     console.log(newProduct);
     window.close();
 })

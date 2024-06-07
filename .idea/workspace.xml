@@ -4,24 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="" />
+    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="First Commit of StockManager">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/productPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/productPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/scriptCompra.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptCompra.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/scriptHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/scriptLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/scriptVenda.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptVenda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/productPage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MuriloAlvesGD&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MuriloAlvesGD/JS-StockManager.git&quot;,
+    &quot;accountId&quot;: &quot;7eda19d5-7e0f-458f-affa-acf83ab8441d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -35,6 +61,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Node.js.acess.js.executor": "Run",
+    "Node.js.scriptHome.js.executor": "Run",
+    "Node.js.scriptLogin.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/murilo_alves/WebstormProjects/GerenciamentoDeEstoqueJS",
@@ -44,11 +73,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/murilo_alves/WebStorm-241.15989.105/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/JS" />
       <recent name="$PROJECT_DIR$/CSS" />
       <recent name="$PROJECT_DIR$/html" />
@@ -76,11 +108,28 @@
       <workItem from="1716467089768" duration="17978000" />
       <workItem from="1716490275771" duration="3845000" />
       <workItem from="1716504347307" duration="592000" />
-      <workItem from="1716595372437" duration="379000" />
+      <workItem from="1716595372437" duration="732000" />
+      <workItem from="1717594419670" duration="7965000" />
+      <workItem from="1717692826612" duration="1377000" />
+      <workItem from="1717698659988" duration="428000" />
+      <workItem from="1717759813046" duration="21160000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit of StockManager">
+      <option name="closed" value="true" />
+      <created>1716595781058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716595781058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit of StockManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit of StockManager" />
   </component>
 </project>

@@ -53,3 +53,40 @@ form {
         width: auto;
     }
 }
+
+#products{
+    display: flex;
+    justify-content: center;
+}
+#product {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 45px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#productImg {
+    border-radius: 25px;
+}
+
+#informations {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+H4 {
+    font-size: 20px;
+}
+
+#productName {
+    font-size: 30px;
+    text-transform: uppercase;
+}
