@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="First Commit of StockManager">
+    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="update relations and design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/product.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/productPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/productPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/scriptCompra.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptCompra.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/scriptHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptHome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/scriptLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptLogin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JS/scriptVenda.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptVenda.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/productPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/productPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +62,16 @@
     "Node.js.scriptLogin.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/murilo_alves/WebstormProjects/GerenciamentoDeEstoqueJS",
+    "last_opened_file_path": "/home/luriom_yt/.config/nvm/versions/node/v20.14.0/bin/node",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/luriom_yt/.config/nvm/versions/node/v20.14.0/bin/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/murilo_alves/WebStorm-241.15989.105/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/home/luriom_yt/WebStorm-241.17890.13/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,10 +83,15 @@
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="scriptHome.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.config/nvm/versions/node/v20.14.0/bin/node" nameIsGenerated="true" path-to-js-file="scriptHome.js" working-dir="$PROJECT_DIR$/JS">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
       </set>
     </attachedChunks>
   </component>
@@ -113,6 +115,8 @@
       <workItem from="1717692826612" duration="1377000" />
       <workItem from="1717698659988" duration="428000" />
       <workItem from="1717759813046" duration="21160000" />
+      <workItem from="1717783077009" duration="950000" />
+      <workItem from="1718197742253" duration="13382000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit of StockManager">
       <option name="closed" value="true" />
@@ -122,14 +126,34 @@
       <option name="project" value="LOCAL" />
       <updated>1716595781058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update relations and design">
+      <option name="closed" value="true" />
+      <created>1717783970221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717783970221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit of StockManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit of StockManager" />
+    <MESSAGE value="update relations and design" />
+    <option name="LAST_COMMIT_MESSAGE" value="update relations and design" />
   </component>
 </project>

@@ -58,6 +58,51 @@ form {
     display: flex;
     justify-content: center;
 }
+
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#productBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.productBtn {
+    width: 50%;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#sellBtn {
+    background-color: yellowgreen;
+}
+
+#sellBtn:hover {
+    background-color: forestgreen;
+}
+
+#buyBtn {
+    background-color: deepskyblue;
+}
+
+#buyBtn:hover {
+    background-color: cornflowerblue;
+}
+
 #product {
     margin: 25px;
     padding: 20px;

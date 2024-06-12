@@ -1,16 +1,20 @@
 let productsList = JSON.parse(localStorage.getItem('productsList'));
 const productNameList = document.getElementById('productNameList');
+const sellForm = document.querySelector("form");
+const productformName = sellForm.getElementsByTagName("input")[0];
+const productformStock = sellForm.getElementsByTagName("input")[1];
+const product = JSON.parse(localStorage.getItem('productTransaction'));
+
+if (product != undefined && product != null) {
+    productformName.value = product.name;
+    localStorage.removeItem("productTransaction");
+}
 
 productsList.forEach(product => {
     const productName = document.createElement('li');
     productName.innerHTML = `NOME: ${product.name} - ESTOQUE: ${product.stock}`;
     productNameList.appendChild(productName);
 })
-
-const sellForm = document.querySelector("form");
-const productformName = sellForm.getElementsByTagName("input")[0];
-const productformStock = sellForm.getElementsByTagName("input")[1];
-
 
 sellForm.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -26,9 +30,9 @@ sellForm.addEventListener("submit", function (event) {
 
         sellProduct.stock -= productformStock.value;
 
-        let lucro = JSON.parse(localStorage.getItem('lucro'));
-        lucro += sellProduct.value * productformStock.value;
-        localStorage.setItem('lucro', JSON.stringify(lucro));
+        let faturamento = JSON.parse(localStorage.getItem('faturamento'));
+        faturamento += sellProduct.price * productformStock.value;
+        localStorage.setItem('faturamento', JSON.stringify(faturamento));
         localStorage.setItem('productsList', JSON.stringify(productsList));
 
         window.opener.location.href = 'homePage.html';
