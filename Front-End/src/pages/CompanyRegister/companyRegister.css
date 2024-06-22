@@ -10,15 +10,20 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    width: 100%;
     background: yellowgreen;
 }
 
-h1 {
+h1, h3 {
     color: black;
 }
 
 
-#registerUserForm{
+#registerUserForm, #companyInformations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
     height: fit-content;
     width: fit-content;
     background-color: white;
@@ -33,7 +38,13 @@ h1 {
     }
 }
 
+#companyInformations{
+    color: black;
+    margin-top: 20px;
+}
+
 input{
+    width: 100%;
     border-radius: 10px;
     color: #5f5f5f;
     border:none;

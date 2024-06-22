@@ -16,7 +16,17 @@ function Register (){
             return response.data;
         }
 
-        async function isEmail(email) {
+        async function registerUser(userData){
+            if(userData != null) {
+                const response = await axios.post('http://localhost:3333/Register/NewUser', {
+                    userData: userData,
+                });
+
+                return response.data;
+            }
+        }
+
+        function isEmail(email) {
             const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (regex.test(email)) {
                 return true; // Email válido
@@ -24,9 +34,11 @@ function Register (){
                 return false; // Email inválido
             }
         }
-        const form = document.querySelector('form');
-        form.addEventListener("submit", (e)=>{
-            e.preventDefault();
+        const btn = document.querySelector('button');
+        btn.onclick = function(){
+            //e.stopPropagation();
+            document.querySelector('button').disabled;
+
             const name = document.querySelector(".name").value;
             const CPF = document.querySelector(".CPF").value;
             const RG = document.querySelector(".RG").value;
@@ -35,7 +47,7 @@ function Register (){
             const gender = document.querySelector(".seletor").value;
             const bornDate = document.querySelector(".bornDate").value;
 
-            const userData = {
+            let userData = {
                 name: name,
                 CPF: CPF,
                 RG: RG,
@@ -50,10 +62,13 @@ function Register (){
 
             if (isEmail(email)) {
                 verifyLoginAndDocExistence(email, CPF, RG).then(response => {
-                    if (response.auth) {
-                        localStorage.setItem('userData', JSON.stringify(userData));
-                        navigate('/Register/Company');
-                    } else {
+                    if(response.auth){
+                        registerUser(userData).then(response =>{
+                            console.log(response);
+                            navigate(`/Register/Company/${response.id}`)
+                        })
+                    }
+                    else{
                         window.alert(response.errorMensage);
                     }
                 })
@@ -61,7 +76,10 @@ function Register (){
             else {
                 window.alert("insirá um email inválido");
             }
-        })
+
+            const form = document.querySelector('form');
+            form.reset();
+        }
 
     },[])
 
@@ -81,8 +99,8 @@ function Register (){
                         <option>FEMININO</option>
                     </select>
                     <input className="bornDate" type="date" required name="bornDate" placeholder="ano de nascimento"/>
-                    <button type="submit"><h1>CADASTRAR</h1></button>
                 </form>
+                <button><h1>CADASTRAR</h1></button>
             </div>
         </div>
     )

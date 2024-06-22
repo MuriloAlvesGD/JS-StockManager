@@ -69,8 +69,8 @@ function Login() {
                     <input className="password" type="text" required name="password" placeholder="Senha"/>
                     <button type="submit"><h1>ENTRAR</h1></button>
                 </form>
+                <Link to={'/Register'} id='registerLink'><h4>CRIAR CONTA</h4></Link>
             </div>
-            <Link to={'/Register'}>CRIAR CONTA</Link>
         </div>
     )
 }

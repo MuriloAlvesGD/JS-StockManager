@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="update relations and design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/productPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/productPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/scriptCompra.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptCompra.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/scriptHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptHome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/scriptVenda.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/scriptVenda.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/companyRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/companyRegister.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Login/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Login/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Register/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Register/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Register/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -38,12 +45,15 @@
     &quot;assignee&quot;: &quot;MuriloAlvesGD&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MuriloAlvesGD/JS-StockManager.git&quot;,
-    &quot;accountId&quot;: &quot;7eda19d5-7e0f-458f-affa-acf83ab8441d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MuriloAlvesGD/JS-StockManager.git",
+    "accountId": "3a0ac677-3bdf-4d37-8087-7f8e0d7771f1"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -56,37 +66,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.App.jsx.executor": "Run",
     "Node.js.acess.js.executor": "Run",
+    "Node.js.consultSQL.js.executor": "Run",
+    "Node.js.createTable.js.executor": "Run",
+    "Node.js.db.js.executor": "Run",
+    "Node.js.index.jsx.executor": "Run",
+    "Node.js.main.jsx.executor": "Run",
+    "Node.js.routes.js.executor": "Run",
     "Node.js.scriptHome.js.executor": "Run",
     "Node.js.scriptLogin.js.executor": "Run",
+    "Node.js.server.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/luriom_yt/.config/nvm/versions/node/v20.14.0/bin/node",
+    "last_opened_file_path": "/home/murilo_alves/WebstormProjects/GerenciamentoDeEstoqueJS",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "/home/luriom_yt/.config/nvm/versions/node/v20.14.0/bin/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/home/luriom_yt/WebStorm-241.17890.13/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/murilo_alves/WebStorm-241.17890.13/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/JS" />
-      <recent name="$PROJECT_DIR$/CSS" />
-      <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$/Back-End" />
+      <recent name="$PROJECT_DIR$/before" />
+      <recent name="$PROJECT_DIR$/postgres" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/DB" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="scriptHome.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.config/nvm/versions/node/v20.14.0/bin/node" nameIsGenerated="true" path-to-js-file="scriptHome.js" working-dir="$PROJECT_DIR$/JS">
+    <configuration name="scriptHome.js" type="NodeJSConfigurationType" path-to-node="/usr/bin/node" nameIsGenerated="true" path-to-js-file="scriptHome.js" working-dir="$PROJECT_DIR$/JS">
       <method v="2" />
     </configuration>
+    <configuration name="scriptLogin.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS/scriptLogin.js" working-dir="$PROJECT_DIR$/JS">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.scriptLogin.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -116,7 +145,19 @@
       <workItem from="1717698659988" duration="428000" />
       <workItem from="1717759813046" duration="21160000" />
       <workItem from="1717783077009" duration="950000" />
-      <workItem from="1718197742253" duration="13382000" />
+      <workItem from="1718197742253" duration="13532000" />
+      <workItem from="1718249071394" duration="3000" />
+      <workItem from="1718315911120" duration="6299000" />
+      <workItem from="1718373377718" duration="5611000" />
+      <workItem from="1718391316270" duration="1284000" />
+      <workItem from="1718660836485" duration="20630000" />
+      <workItem from="1718730102253" duration="172000" />
+      <workItem from="1718730302190" duration="82000" />
+      <workItem from="1718730415681" duration="12706000" />
+      <workItem from="1718744725844" duration="3177000" />
+      <workItem from="1718798815669" duration="6821000" />
+      <workItem from="1718906541420" duration="427000" />
+      <workItem from="1718909796411" duration="73232000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit of StockManager">
       <option name="closed" value="true" />
@@ -134,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717783970221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update relations and design">
+      <option name="closed" value="true" />
+      <created>1718232456821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718232456821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

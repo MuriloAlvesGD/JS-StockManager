@@ -10,6 +10,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    width: 100%;
     background: yellowgreen;
 }
 
@@ -19,6 +20,10 @@ h1 {
 
 
 #registerUserForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
     height: fit-content;
     width: fit-content;
     background-color: white;
