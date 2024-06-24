@@ -75,6 +75,12 @@ routes.get('/Register/getSellerId', async(request, response) => {
     return response.status(201).json(result);
 })
 
+routes.put('/Login/getCompanyAndUserId', async(request, response) => {
+    const {login, password} = request.body;
+    const result = await db.query(`SELECT id, company_id FROM stock_manager.sellers where login = $1 and password = $2`,[login, password]);
+    return response.status(200).json(result.rows[0]);
+})
+
 routes.put('/Register/CompanyFK', async(request, response) =>{
     const {companyId, sellerId} = request.body;
     const result = await db.query(`UPDATE stock_manager.sellers SET company_id = $1 where id = $2`, [companyId, sellerId]);

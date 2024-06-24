@@ -73,7 +73,6 @@ function CompanyRegister (){
                 }
 
                 else {
-                    console.log('nao encotrou compania')
                     companyInformations.innerHTML = "Empresa nao encotrada";
                     companyInformations.style.display = 'block';
                 }

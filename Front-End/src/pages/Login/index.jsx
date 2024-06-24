@@ -23,6 +23,14 @@ function Login() {
             return response.data;
         }
 
+        async function getCompanyAndUserId(userLogin, userPassword){
+            const response = await axios.put("http://localhost:3333/Login/getCompanyAndUserId",{
+                login: userLogin,
+                password: userPassword,
+            });
+            return response.data;
+        }
+
         async function isEmail(email) {
             const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (regex.test(email)) {
@@ -42,7 +50,14 @@ function Login() {
             if(isEmail(email)){
                 authUser(email, password).then(response =>{
                     if(response){
-                        navigate('/Home');
+                        getCompanyAndUserId(email, password).then(response =>{
+                            if (response.company_id == null){
+                                navigate(`/Register/Company/${response.id}`)
+                            }
+                            else{
+                                navigate(`/Home/${response.company_id}/${response.id}`);
+                            }
+                        })
                     }
                     else{
                         verifyUserExistence(email).then(response =>{
