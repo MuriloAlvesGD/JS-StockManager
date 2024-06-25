@@ -100,7 +100,7 @@ function Register (){
                     </select>
                     <input className="bornDate" type="date" required name="bornDate" placeholder="ano de nascimento"/>
                 </form>
-                <button><h1>CADASTRAR</h1></button>
+                <button id='registerBtn'><h1>CADASTRAR</h1></button>
             </div>
         </div>
     )

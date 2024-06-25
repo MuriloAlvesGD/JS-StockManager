@@ -82,7 +82,7 @@ function Login() {
                 <form action="">
                     <input className="email" type="text" required name="email" placeholder="Email"/>
                     <input className="password" type="text" required name="password" placeholder="Senha"/>
-                    <button type="submit"><h1>ENTRAR</h1></button>
+                    <button type="submit" id='loginBtn'><h1>ENTRAR</h1></button>
                 </form>
                 <Link to={'/Register'} id='registerLink'><h4>CRIAR CONTA</h4></Link>
             </div>

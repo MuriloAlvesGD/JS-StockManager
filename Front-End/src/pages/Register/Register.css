@@ -46,7 +46,7 @@ input{
     padding: 5px;
 }
 
-button {
+#registerBtn {
     background-color: yellowgreen;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ button {
     }
 }
 
-button:hover {
+#registerBtn:hover {
     background-color: forestgreen;
 }
 

@@ -61,7 +61,7 @@ input{
     padding: 5px;
 }
 
-button {
+#submitBtn, #selectCompany {
     background-color: yellowgreen;
     display: flex;
     flex-direction: column;
@@ -73,13 +73,19 @@ button {
     height: 25px;
     margin: auto;
     transition-duration: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
     h1{
-        font-size: 20px;
         color: white;
     }
 }
 
-button:hover {
+#submitBtn:hover {
+    background-color: forestgreen;
+}
+
+#selectCompany:hover {
     background-color: forestgreen;
 }
 

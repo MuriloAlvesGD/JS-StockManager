@@ -35,7 +35,7 @@
     }
 }
 
-button {
+#submitBtn {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ button {
     }
 }
 
-button:hover {
+#submitBtn:hover {
     background-color: forestgreen;
     h1{
         color: white;
