@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="update relations and design">
+    <list default="true" id="09718f9e-981a-4828-9e26-2d9e644e92cc" name="Changes" comment="verificaçao de login, redirecionamento para linkar a uma empresa ou home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/src/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/companyRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/companyRegister.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/CompanyRegister/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Login/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Login/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Login/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Register/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Register/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Register/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Register/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/src/pages/Home/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +42,12 @@
     &quot;assignee&quot;: &quot;MuriloAlvesGD&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MuriloAlvesGD/JS-StockManager.git",
-    "accountId": "3a0ac677-3bdf-4d37-8087-7f8e0d7771f1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MuriloAlvesGD/JS-StockManager.git&quot;,
+    &quot;accountId&quot;: &quot;3a0ac677-3bdf-4d37-8087-7f8e0d7771f1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -64,37 +61,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "Node.js.App.jsx.executor": "Run",
-    "Node.js.acess.js.executor": "Run",
-    "Node.js.consultSQL.js.executor": "Run",
-    "Node.js.createTable.js.executor": "Run",
-    "Node.js.db.js.executor": "Run",
-    "Node.js.index.jsx.executor": "Run",
-    "Node.js.main.jsx.executor": "Run",
-    "Node.js.routes.js.executor": "Run",
-    "Node.js.scriptHome.js.executor": "Run",
-    "Node.js.scriptLogin.js.executor": "Run",
-    "Node.js.server.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/murilo_alves/WebstormProjects/GerenciamentoDeEstoqueJS",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/home/murilo_alves/WebStorm-241.17890.13/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.App.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.acess.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.consultSQL.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.createTable.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.db.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.routes.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.scriptHome.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.scriptLogin.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/murilo_alves/WebstormProjects/GerenciamentoDeEstoqueJS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/murilo_alves/WebStorm-241.17890.13/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Back-End" />
@@ -104,7 +101,7 @@
       <recent name="$PROJECT_DIR$/DB" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.scriptHome.js">
     <configuration name="scriptHome.js" type="NodeJSConfigurationType" path-to-node="/usr/bin/node" nameIsGenerated="true" path-to-js-file="scriptHome.js" working-dir="$PROJECT_DIR$/JS">
       <method v="2" />
     </configuration>
@@ -157,7 +154,8 @@
       <workItem from="1718744725844" duration="3177000" />
       <workItem from="1718798815669" duration="6821000" />
       <workItem from="1718906541420" duration="427000" />
-      <workItem from="1718909796411" duration="73232000" />
+      <workItem from="1718909796411" duration="73320000" />
+      <workItem from="1719252334144" duration="25106000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit of StockManager">
       <option name="closed" value="true" />
@@ -183,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718232456821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="login process">
+      <option name="closed" value="true" />
+      <created>1719084687847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719084687847</updated>
+    </task>
+    <task id="LOCAL-00005" summary="verificaçao de login, redirecionamento para linkar a uma empresa ou home page">
+      <option name="closed" value="true" />
+      <created>1719255209889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719255209889</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +217,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit of StockManager" />
     <MESSAGE value="update relations and design" />
-    <option name="LAST_COMMIT_MESSAGE" value="update relations and design" />
+    <MESSAGE value="login process" />
+    <MESSAGE value="verificaçao de login, redirecionamento para linkar a uma empresa ou home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="verificaçao de login, redirecionamento para linkar a uma empresa ou home page" />
   </component>
 </project>

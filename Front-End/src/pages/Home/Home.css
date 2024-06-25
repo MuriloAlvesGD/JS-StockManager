@@ -5,15 +5,24 @@
 }
 
 body{
-    background-color: #ececec;
+    background-color: white;
+}
+
+#action-btn{
+    display: none;
 }
 
 #logo{
     height: 8vh;
     width: auto;
-    filter: invert();
     margin-left: 4vh;
+    filter: invert();
 }
+
+#action-btn:checked {
+
+}
+
 
 header{
     height: 10vh;
@@ -24,19 +33,18 @@ header{
     justify-content: space-between;
 }
 
+#companyNameAndCNPJ {
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
 form{
     display: flex;
     gap: 10px;
     align-content: center;
     align-items: center;
     justify-content: center;
-}
-#searchInput{
-    border: none;
-    width: 400px;
-    border-radius: 25px;
-    padding: 5px 18px 5px 18px;
-    font-size: 18px;
 }
 
 #registerButtons{
@@ -47,9 +55,20 @@ form{
     color: white;
     border: none;
     border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
     padding: 20px 30px 30px 20px;
     transition-duration: 0.2s;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+
+    h1{
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
 
 .registerButton:hover{
@@ -88,13 +107,18 @@ form{
 }
 
 .dashBoard{
+    margin-top: 20px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     color: white;
-    font-size: 25px;
     text-transform: uppercase;
     text-align: center;
+
+    h1{
+        font-size: 25px;
+        color: white;
+    }
 }
 
 #faturamento{
@@ -148,15 +172,31 @@ img {
     border-radius: 10px;
 }
 
-#searchButton {
-    border-radius: 15px;
+#searchInput{
     border: none;
-    padding: 5px;
+    width: 400px;
+    border-radius: 25px;
+    padding: 5px 18px 5px 18px;
+    font-size: 18px;
+    color: white;
+}
+
+#searchButton {
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
     height: fit-content;
-    width: 40px;
+    width: fit-content;
+    background-color: white;
+    transition: 0.2s;
 
     img {
         height: 25px;
         width: auto;
     }
+}
+
+#searchButton:hover {
+    padding: 7px;
+    opacity: 90%;
 }

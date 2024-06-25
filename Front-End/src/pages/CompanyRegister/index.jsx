@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 import {useNavigate} from "react-router";
 import './companyRegister.css';
 import axios from 'axios';
+import {Link} from "react-router-dom";
 
 function CompanyRegister (){
     const navigate = useNavigate();
+    let url = window.location.pathname;
+    let parts = url.split('/');
+    const sellerId = parts[parts.length -1];
 
     React.useEffect(() =>{
         document.querySelector('#companyInformations').style.display = 'none';
@@ -61,9 +65,6 @@ function CompanyRegister (){
                         const companyId = response.id;
 
                         selectCompany.onclick = function (){
-                            let url = window.location.pathname;
-                            let parts = url.split('/');
-                            const sellerId = parts[parts.length -1];
                             updateCompanyFK(companyId, sellerId).then(response =>{
                                 window.alert(response);
                                 navigate("/");
@@ -85,6 +86,7 @@ function CompanyRegister (){
     },[])
     return (
         <div id="box">
+            <Link to={'/Register/NewCompany/' + sellerId} id='newCompanyLink'><h4>CADASTRAR NOVA EMPRESA</h4></Link>
             <div id='registerUserForm'>
                 <h1>REGISTRAR EMPRESA</h1>
                 <form action="">
