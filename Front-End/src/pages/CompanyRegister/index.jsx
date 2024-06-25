@@ -29,7 +29,7 @@ function CompanyRegister (){
             return response.data;
         }
 
-        const button = document.querySelector("#submitBtn");
+        const button = document.querySelector("#searchCNPJ");
         button.onclick = function(){
 
             const companyInformations = document.querySelector('#companyInformations');
@@ -92,7 +92,7 @@ function CompanyRegister (){
                 <form action="">
                     <input className="CNPJ" type="text" required name="CNPJ" placeholder="CNPJ DA EMPRESA"/>
                 </form>
-                <button id='submitBtn'><h1>CADASTRAR</h1></button>
+                <button id='searchCNPJ'><h1>CADASTRAR</h1></button>
             </div>
             <div id='companyInformations'></div>
         </div>
