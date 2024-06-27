@@ -32,10 +32,27 @@ function Purchasing() {
             const inputValue = document.createElement('input');
             const inputStock = document.createElement('input');
             const textarea = document.createElement('textarea')
-            input.type = 'text'
-            input.placeholder = 'input de teste'
+            inputName.type = 'text';
+            inputName.className = 'productNameInput';
+            inputName.placeholder = 'Nome do Produto';
+            inputCost.type = 'number';
+            inputCost.className = 'productCostInput';
+            inputCost.placeholder = 'Custo do Produto';
+            inputValue.type = 'number';
+            inputValue.className = 'productValueInput';
+            inputValue.placeholder = 'Valor de Venda'
+            inputStock.type = 'number';
+            inputStock.className = 'productStockInput';
+            inputStock.placeholder = 'Estoque';
+            textarea.className = 'productDescriptionInput';
+            textarea.placeholder = 'Descriçao do produto';
+
             form.className = "buyForm";
-            form.appendChild(input);
+            form.appendChild(inputName);
+            form.appendChild(textarea);
+            form.appendChild(inputCost);
+            form.appendChild(inputValue);
+            form.appendChild(inputStock);
             productForms.appendChild(form);
         }
     }, [])

@@ -31,7 +31,7 @@ function Login() {
             return response.data;
         }
 
-        async function isEmail(email) {
+        function isEmail(email) {
             const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (regex.test(email)) {
                 return true; // Email válido
